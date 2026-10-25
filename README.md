@@ -31,6 +31,9 @@ Free Play maps from the LEGO Castle and LEGO Pirates prototypes that differ from
 
 The prototype's maps are unchanged apart from format: its marker records are one byte narrower than the final game's, so each marker gained the trailing byte. The prototype has no gold-brick event; none was added.
 
+### Ninjago Free Play maps
+The 22 Free Play ("Battle Mode") maps of LEGO Battles: Ninjago that fit the format (Battle Mode Map 08 is a 48x48 map and is left out), converted to the retail format. Ninjago draws its tiles in a different isometric view, so the tile layer is rebuilt from the maps' own terrain pictures on the retail Pirate (jungle), King (snow) and Mars (volcano, underworld, cave) tilesets. Starts, mines and decorations follow the Ninjago maps; each map's `.txt` says what was invented. All are 96x96 and 2 players: the stock game lists only maps with 3 or more starts, so these need the port's 2-player map list.
+
 ## Using the maps
 
 - **By hand.** Extract a pack and put the map folders under `mods/maps/` next to the game. They show in the Free Play map list after the stock maps (at most 30 mod maps are listed).
@@ -38,9 +41,9 @@ The prototype's maps are unchanged apart from format: its marker records are one
 
 ## Sources and credit
 
-- The prototype maps and the cut-map minimap pictures come from the LEGO Castle and LEGO Pirates prototype builds.
+- The prototype maps and the cut-map minimap pictures come from the LEGO Castle and LEGO Pirates prototype builds; the Ninjago maps from LEGO Battles: Ninjago.
 - The map format and minimap rules were worked out by the LEGO Battles modding community and the port project.
 
 ## More to come
 
-Free Play maps for the Ninjago version will be added here as further packs.
+Battle Mode Map 08 and Ninjago's story maps may follow.
